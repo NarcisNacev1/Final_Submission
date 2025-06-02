@@ -12,3 +12,5 @@ public interface SubmissionRepository extends JpaRepository<Submission, Long> {
 //    @Query("SELECT s FROM score s WHERE s.score_id = :subId")
 //    List<Score> findScoreBySubId(Long subId);
 }
+
+
